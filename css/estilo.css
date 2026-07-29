@@ -1,0 +1,43 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: rgb(7, 95, 84);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+}
+ 
+h1{
+    color: #af844c;
+    text-align: center;
+    font-size: 40px;
+}
+ 
+p{
+    font-size: 1;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+ 
+.lorem {
+    color: #f2ff00;
+}
+ 
+p.lorem{
+    text-align: justify;
+}
+ 
+#ultimoparagrafo {
+    text-align: right;
+    font-weight: bold;
+}
+ 
+.conteudo{
+    width: auto;
+    height: auto;
+}
+ 
+#botao:hover{
+    background-color: #0d00ff;
+    color: #fff;
+}
