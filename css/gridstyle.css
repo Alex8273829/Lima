@@ -1,0 +1,63 @@
+/*Definição do layout geral*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0
+    box-sizing: border-box;
+    background-image: url(grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*container principal configurado com leiaute de grid*/
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer footer";
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;;
+    gap: 10px;
+    padding: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-image: url('gripbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-image: url('gridsidebar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  #fff
+}
+
+.content{
+    grid-area: content;
+    background-image: url('gridcontent.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    background-image: url('gridfooter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
